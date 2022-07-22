@@ -3,7 +3,7 @@
   padding: 0;
 
   &__nav {
-    min-height: 88px;
+    min-height: 85px;
     display: flex;
     align-items: center;
   }
@@ -22,7 +22,7 @@
     color: #828282;
     font-size: 18px;
     line-height: 22px;
-    font-family: "Gilroy-Bold";
+    font-weight: 700;
   }
 
   &__link_active {

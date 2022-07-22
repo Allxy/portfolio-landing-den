@@ -1,0 +1,29 @@
+.about {
+  margin: 0;
+  padding: 110px 0;
+
+  &__title {
+    margin: 0 0 22px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+  }
+  &__text {
+    max-width: 485px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+
+  &__paragraph {
+    margin: 0 0 45px;
+    padding: 0;
+    text-align: center;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

@@ -1,2 +1,49 @@
 .intro {
+  padding: 30px 0 105px 0;
+
+  &__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0 0 40px 0;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 59px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__subtitle {
+    margin: 0;
+    padding: 0 0 10px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+
+  &__lang-selector {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    width: max-content;
+    align-self: center;
+    margin: 0;
+    padding: 0 50px 30px 0;
+    font-weight: 700;
+  }
+
+  &__lang-item {
+    color: #828282;
+    text-decoration: none;
+    &_active {
+      color: #000;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
 }
