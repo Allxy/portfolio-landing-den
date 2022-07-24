@@ -6,6 +6,10 @@
   column-gap: 60px;
   max-width: max-content;
 
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    column-gap: 51px;
+  }
+
   &__item {
   }
 

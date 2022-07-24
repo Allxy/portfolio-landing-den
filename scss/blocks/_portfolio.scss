@@ -2,14 +2,26 @@
   margin: 0;
   padding: 105px 0;
 
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding: 75px 30px;
+  }
+
   &__title {
     margin: 0 0 55px;
     padding: 0;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      margin-bottom: 73px;
+    }
   }
 
   &__work {
     margin: 0 0 102px;
     padding: 0;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      margin-bottom: 85px;
+    }
 
     &:last-child {
       margin: 0;
@@ -18,6 +30,10 @@
     &-img {
       width: 100%;
       margin: 0 0 35px;
+
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        margin-bottom: 25px;
+      }
     }
 
     &-caption {
