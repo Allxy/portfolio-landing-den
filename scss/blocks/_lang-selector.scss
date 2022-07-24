@@ -1,0 +1,21 @@
+.lang {
+  &-selector {
+    writing-mode: vertical-rl;
+    width: max-content;
+    align-self: center;
+    margin: 0;
+    font-weight: 700;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &-item {
+    color: #828282;
+    text-decoration: none;
+    &_active {
+      color: #000;
+    }
+  }
+}
