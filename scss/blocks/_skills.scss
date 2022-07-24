@@ -1,9 +1,9 @@
 .skills {
   margin: 0;
-  padding: 85px 0 0 0;
+  padding: 85px 0 115px 0;
 
   &__title {
-    margin: 0 auto 55px;
+    margin: 0 0 55px;
     padding: 0;
   }
 
@@ -15,7 +15,7 @@
   &__cards {
     display: flex;
     justify-content: space-between;
-    margin: 90px 0;
+    margin: 90px 0 0;
   }
 
   &__card {
@@ -36,6 +36,7 @@
       font-size: 14px;
       line-height: 17px;
       font-weight: bold;
+      color: #828282;
     }
 
     &-level {
@@ -55,7 +56,7 @@
     }
 
     &-star_active {
-      opacity: 0.2;
+      opacity: 0.1;
     }
   }
 }

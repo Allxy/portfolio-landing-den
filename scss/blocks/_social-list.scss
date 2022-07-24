@@ -1,0 +1,43 @@
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 60px;
+  max-width: max-content;
+
+  &__item {
+  }
+
+  &__li {
+    display: block;
+    background-image: url(../images/linkedin.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+  }
+
+  &__ig {
+    display: block;
+    background-image: url(../images/insta.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+  }
+
+  &__be {
+    display: block;
+    background-image: url(../images/beh.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+  }
+
+  &__dr {
+    display: block;
+    background-image: url(../images/dribble.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+  }
+}
