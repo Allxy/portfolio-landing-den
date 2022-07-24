@@ -53,7 +53,7 @@
 
   &__burger {
     position: absolute;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -63,6 +63,10 @@
     top: 0;
     right: 0;
     cursor: pointer;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      display: flex;
+    }
   }
 
   &__burger-line {
