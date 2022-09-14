@@ -1,6 +1,5 @@
 name: deploy website
-on:
-  workflow_dispatch:
+on: [pull_request]
 jobs:
   test1:
     runs-on: ubuntu-latest
@@ -14,5 +13,3 @@ jobs:
           vercel-org-id: ${{ secrets.ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
           working-directory: ./ #Your Working Directory, Optional
-          alias-domains: | #Optional
-            test1.portfolio-landing-den.vercel.app
