@@ -21,7 +21,7 @@ jobs:
   deploy:
     environment:
       name: test-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.step_id.outputs.url_output }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
