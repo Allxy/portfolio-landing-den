@@ -22,18 +22,23 @@ module.exports = {
       {
         test: /\.js$/,
         use: "babel-loader",
-        exclude: "/node_modules/",
+        exclude: /node_modules/,
       },
       {
         test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
         type: "asset/resource",
       },
       {
-        test: /\.s(a|c)ss$/,
-        exclude: /node_modules/,
+        test: /\.(sa|sc|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          "css-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1,
+            },
+          },
+          "postcss-loader",
           "resolve-url-loader",
           {
             loader: "sass-loader",

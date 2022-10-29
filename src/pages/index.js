@@ -1,3 +1,4 @@
+import "normalize.css"
 import "./index.scss"
 
 document.getElementById("burgerButton").addEventListener("click", (e) => {
