@@ -21,4 +21,4 @@
 
 ## Ссылки
 
-* [Ссылка на GHpages](https://allxy.github.io/portfolio-landing-den/
+* [Ссылка на GHpages](https://allxy.github.io/portfolio-landing-den/)
