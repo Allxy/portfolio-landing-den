@@ -2,13 +2,13 @@
   margin: 0;
   padding: 110px 0;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @include mobile {
     padding: 105px 30px 80px 30px;
   }
 
   &__title {
     margin: 0 auto 22px;
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @include mobile {
       margin-bottom: 30px;
     }
   }

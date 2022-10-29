@@ -2,7 +2,7 @@
   margin: 0;
   padding: 105px 0;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @include mobile {
     padding: 75px 30px;
   }
 
@@ -10,7 +10,7 @@
     margin: 0 0 55px;
     padding: 0;
 
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @include mobile {
       margin-bottom: 73px;
     }
   }
@@ -19,7 +19,7 @@
     margin: 0 0 102px;
     padding: 0;
 
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @include mobile {
       margin-bottom: 85px;
     }
 
@@ -31,7 +31,7 @@
       width: 100%;
       margin: 0 0 35px;
 
-      @media screen and (min-width: 320px) and (max-width: 767px) {
+      @include mobile {
         margin-bottom: 25px;
       }
     }

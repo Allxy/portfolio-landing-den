@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css" />
     <title>Denis Novik</title>
   </head>
   <body class="page">
@@ -43,7 +42,7 @@
           </div>
         </div>
         <div class="intro__image-wrapper">
-          <img class="intro__image" src="./images/intro__image.jpg" alt="" />
+          <img class="intro__image" src="<%=require('./images/intro__image.jpg')%>" alt="" />
         </div>
       </section>
       <div class="content__section content__section_bg-color_gray">
@@ -69,7 +68,7 @@
         <p class="skills__text section-text">I work in such programs as</p>
         <div class="skills__cards">
           <article class="skills__card">
-            <img class="skills__card-img" src="./images/PS.jpg" alt="ps" />
+            <img class="skills__card-img" src="<%=require('./images/PS.jpg')%>" alt="ps" />
             <h3 class="skills__card-caption">Adobe Photoshop</h3>
             <div class="skills__card-level">
               <span class="skills__card-star"></span>
@@ -80,7 +79,7 @@
             </div>
           </article>
           <article class="skills__card">
-            <img class="skills__card-img" src="./images/AI.jpg" alt="ai" />
+            <img class="skills__card-img" src="<%=require('./images/AI.jpg')%>" alt="ai" />
             <h3 class="skills__card-caption">Adobe Illustrator</h3>
             <div class="skills__card-level">
               <span class="skills__card-star"></span>
@@ -91,7 +90,7 @@
             </div>
           </article>
           <article class="skills__card">
-            <img class="skills__card-img" src="./images/AE.jpg" alt="ae" />
+            <img class="skills__card-img" src="<%=require('./images/AE.jpg')%>" alt="ae" />
             <h3 class="skills__card-caption">Adobe After&nbsp;Effects</h3>
             <div class="skills__card-level">
               <span class="skills__card-star"></span>
@@ -102,7 +101,7 @@
             </div>
           </article>
           <article class="skills__card">
-            <img class="skills__card-img" src="./images/Figma.png" alt="fig" />
+            <img class="skills__card-img" src="<%=require('./images/Figma.png')%>" alt="fig" />
             <h3 class="skills__card-caption">Figma</h3>
             <div class="skills__card-level">
               <span class="skills__card-star"></span>
@@ -120,7 +119,7 @@
           <figure class="portfolio__work">
             <img
               class="portfolio__work-img"
-              src="./images/portfolio_1.jpg"
+              src="<%=require('./images/portfolio_1.jpg')%>"
               alt="fashion store website"
             />
             <figcaption class="portfolio__work-caption">
@@ -132,7 +131,7 @@
           <figure class="portfolio__work">
             <img
               class="portfolio__work-img"
-              src="./images/portfolio_2.jpg"
+              src="<%=require('./images/portfolio_2.jpg')%>"
               alt="rebook website"
             />
             <figcaption class="portfolio__work-caption">
@@ -144,7 +143,7 @@
           <figure class="portfolio__work">
             <img
               class="portfolio__work-img"
-              src="./images/portfolio_3.jpg"
+              src="<%=require('./images/portfolio_3.jpg')%>"
               alt="braun website"
             />
             <figcaption class="portfolio__work-caption">
@@ -164,16 +163,16 @@
         <nav class="contacts__socials">
           <ul class="social-list">
             <li class="social-list__item">
-              <a href="#" target="_blank" class="social-list__li"></a>
+              <a href="#" target="_blank" class="social-list__icon social-list__icon_li"></a>
             </li>
             <li class="social-list__item">
-              <a href="#" target="_blank" class="social-list__ig"></a>
+              <a href="#" target="_blank" class="social-list__icon social-list__icon_ig"></a>
             </li>
             <li class="social-list__item">
-              <a href="#" target="_blank" class="social-list__be"></a>
+              <a href="#" target="_blank" class="social-list__icon social-list__icon_be"></a>
             </li>
             <li class="social-list__item">
-              <a href="#" target="_blank" class="social-list__dr"></a>
+              <a href="#" target="_blank" class="social-list__icon social-list__icon_dr"></a>
             </li>
           </ul>
         </nav>
@@ -182,7 +181,5 @@
         </p>
       </section>
     </main>
-
-    <script src="./scripts/burger.js"></script>
   </body>
 </html>

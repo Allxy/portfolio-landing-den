@@ -1,0 +1,37 @@
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 60px;
+  max-width: max-content;
+
+  @include mobile {
+    column-gap: 51px;
+  }
+
+  &__icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_li {
+      background-image: url(../../images/linkedin.svg);
+    }
+
+    &_ig {
+      background-image: url(../../images/insta.svg);
+    }
+
+    &_be {
+      background-image: url(../../images/beh.svg);
+    }
+
+    &_dr {
+      background-image: url(../../images/dribble.svg);
+    }
+  }
+}

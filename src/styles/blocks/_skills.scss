@@ -2,7 +2,7 @@
   margin: 0;
   padding: 85px 0 115px 0;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @include mobile {
     padding: 75px 0 100px 0;
   }
 
@@ -10,7 +10,7 @@
     margin: 0 0 55px;
     padding: 0;
 
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @include mobile {
       margin-bottom: 40px;
     }
   }
@@ -25,13 +25,13 @@
     justify-content: space-between;
     margin: 90px auto 0;
 
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @include mobile {
       flex-direction: column;
       row-gap: 89px;
       margin-top: 75px;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @include tablet {
       flex-wrap: wrap;
       row-gap: 89px;
       max-width: 470px;
@@ -71,7 +71,7 @@
       padding: 0;
       width: 20px;
       height: 20px;
-      background-image: url(../images/star.svg);
+      background-image: url(../../images/star.svg);
       background-size: contain;
     }
 
