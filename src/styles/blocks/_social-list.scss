@@ -17,6 +17,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    @include scalable-button(1.1);
 
     &_li {
       background-image: url(../../images/linkedin.svg);

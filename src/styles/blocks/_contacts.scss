@@ -30,6 +30,7 @@
   }
 
   &__button {
+    @include scalable-button(1.1, #333);
     display: block;
     color: white;
     text-decoration: none;
@@ -49,6 +50,7 @@
       max-width: 315px;
       margin-bottom: 48px;
     }
+    
   }
 
   &__socials {

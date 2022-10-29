@@ -55,6 +55,7 @@
       font-size: 34px;
       line-height: 42px;
     }
+    @include scalable-link(1.1)
   }
 
   &__link_active {

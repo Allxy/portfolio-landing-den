@@ -1,6 +1,5 @@
 import "./index.scss"
 
-
 document.getElementById("burgerButton").addEventListener("click", (e) => {
   document.getElementById("header").classList.toggle("header_active");
 });

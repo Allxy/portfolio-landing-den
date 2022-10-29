@@ -16,4 +16,26 @@
   }
 }
 
+@mixin scalable-link( $scale, $color : false) {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  &:hover {
+    @if $color {
+      color: $color;
+    }
+    transform: scale($scale);
+  }
+}
+
+@mixin scalable-button( $scale, $bg : false) {
+  display: block;
+  transition: transform 0.3s ease;
+  &:hover {
+    @if $bg {
+      background-color: $bg;
+    }
+    transform: scale($scale);
+  }
+}
+
 

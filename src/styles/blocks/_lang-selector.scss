@@ -17,5 +17,6 @@
     &_active {
       color: #000;
     }
+    @include scalable-link(1.3);
   }
 }
